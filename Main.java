@@ -2,17 +2,19 @@ class Example {
 	private int x;
 	private int y;
 
-	Example(int a, int b){
+	public Example(int a,
+		       int b){
 		x = a;
 		y = b;
 	}
 
-	Example(){
+	public Example(){
 		x = 0;
 		y = 0;
 	}
 
-	void setXY(int a, int b){
+	void setXY(int a,
+		   int b){
 		x = a;
 		y = b;
 	}
@@ -29,7 +31,7 @@ class Example {
 	}
 }
 
-class Main{
+public class Main{
 	public static void main(String [] args){
 		Example a = new Example(10, 20);
 		Example b = new Example();
